@@ -16,7 +16,9 @@ public class NoOfOccur {
             for(int j = 0; j <= i; j++){
                 if(usrInput.charAt(i) == chara[j]);
             }
-            
+            if(search == 1){
+                System.out.println("# of occurrences for " + usrInput.charAt(i) + ": " + charContain[usrInput.charAt(i)]);
+            }
         }
     }
 
