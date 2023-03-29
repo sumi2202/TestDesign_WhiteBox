@@ -9,9 +9,10 @@ public class App
         Scanner input = new Scanner(System.in);
         String usrInput;
 
+
         System.out.print( "Enter a word to start search: ");
         usrInput = input.nextLine();
 
-        NoOfOccur.checkOccur(usrInput);
+        System.out.println("Printing # of occurrences:\n" + NoOfOccur.checkOccur(usrInput));
     }
 }
