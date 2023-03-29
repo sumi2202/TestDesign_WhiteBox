@@ -10,7 +10,7 @@ public class App
         String usrInput;
 
 
-        System.out.print( "Enter a word to start search: ");
+        System.out.print( "Enter anything to start search: ");
         usrInput = input.nextLine();
 
         System.out.println("Printing # of occurrences:\n" + NoOfOccur.checkOccur(usrInput));
