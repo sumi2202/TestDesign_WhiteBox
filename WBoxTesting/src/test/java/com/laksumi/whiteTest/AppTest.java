@@ -56,6 +56,15 @@ public class AppTest
                         "\n# of occurrences for 0: 3");
 
     }
+    @Test
+    public void characters(){
+        assertEquals(NoOfOccur.checkOccur("+/--+$%"),
+                "\n# of occurrences for +: 2" +
+                "\n# of occurrences for /: 1" +
+                "\n# of occurrences for -: 2" +
+                "\n# of occurrences for $: 1" +
+                "\n# of occurrences for %: 1");
+    }
 
 
 }
