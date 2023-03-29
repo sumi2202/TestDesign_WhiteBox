@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WBoxTesting/WBoxTesting.iml" filepath="$PROJECT_DIR$/WBoxTesting/WBoxTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WhiteBox.iml" filepath="$PROJECT_DIR$/.idea/WhiteBox.iml" />
+    </modules>
+  </component>
+</project>
