@@ -32,5 +32,14 @@ public class AppTest
                         "\n# of occurrences for s: 4" +
                         "\n# of occurrences for p: 1" +
                         "\n# of occurrences for v: 1");
+        assertEquals(NoOfOccur.checkOccur("hello"),
+                "\n# of occurrences for h: 1" +
+                "\n# of occurrences for e: 1" +
+                "\n# of occurrences for l: 2" +
+                "\n# of occurrences for o: 1");
     }
+    public void numbers()
+
+
 }
+

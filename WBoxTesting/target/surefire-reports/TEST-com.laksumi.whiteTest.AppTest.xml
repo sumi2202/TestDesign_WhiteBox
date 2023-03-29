@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.laksumi.whiteTest.AppTest" time="0.043" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.laksumi.whiteTest.AppTest" time="0.039" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Laksu\AppData\Local\Temp\surefire5219039020883893630\surefirebooter4586742879013059190.jar C:\Users\Laksu\AppData\Local\Temp\surefire5219039020883893630 2023-03-29T10-40-10_674-jvmRun1 surefire1522978467638681403tmp surefire_02436132571503579959tmp"/>
+    <property name="sun.java.command" value="C:\Users\Laksu\AppData\Local\Temp\surefire2172050088340431656\surefirebooter1297382557648683838.jar C:\Users\Laksu\AppData\Local\Temp\surefire2172050088340431656 2023-03-29T11-17-33_189-jvmRun1 surefire8295217608605793453tmp surefire_01541278122516458522tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Laksu\WhiteBox\WBoxTesting\target\test-classes;C:\Users\Laksu\WhiteBox\WBoxTesting\target\classes;C:\Users\Laksu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Laksu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Laksu\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Laksu"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Laksu\AppData\Local\Temp\surefire5219039020883893630\surefirebooter4586742879013059190.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Laksu\AppData\Local\Temp\surefire2172050088340431656\surefirebooter1297382557648683838.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,24 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="words" classname="com.laksumi.whiteTest.AppTest" time="0.012">
-    <failure message="expected:&lt;[&#10;# of occurrences for p: 3&#10;# of occurrences for i: 1&#10;# of occurrences for n: 1&#10;# of occurrences for e: 2&#10;# of occurrences for a: 1&#10;# of occurrences for l: 1&#10;# of occurrences for s: 1]&gt; but was:&lt;[# of occurrences for p: 3&#10;# of occurrences for i: 1&#10;# of occurrences for n: 1&#10;# of occurrences for e: 2&#10;# of occurrences for a: 1&#10;# of occurrences for l: 1&#10;# of occurrences for s: 1&#10;]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
-expected:<[
-# of occurrences for p: 3
-# of occurrences for i: 1
-# of occurrences for n: 1
-# of occurrences for e: 2
-# of occurrences for a: 1
-# of occurrences for l: 1
-# of occurrences for s: 1]> but was:<[# of occurrences for p: 3
-# of occurrences for i: 1
-# of occurrences for n: 1
-# of occurrences for e: 2
-# of occurrences for a: 1
-# of occurrences for l: 1
-# of occurrences for s: 1
-]>
-	at com.laksumi.whiteTest.AppTest.words(AppTest.java:11)
-]]></failure>
-  </testcase>
+  <testcase name="words" classname="com.laksumi.whiteTest.AppTest" time="0.005"/>
 </testsuite>

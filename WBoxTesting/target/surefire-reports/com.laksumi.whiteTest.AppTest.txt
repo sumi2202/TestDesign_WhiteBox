@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.laksumi.whiteTest.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.laksumi.whiteTest.AppTest
-words(com.laksumi.whiteTest.AppTest)  Time elapsed: 0.012 s  <<< FAILURE!
-org.junit.ComparisonFailure: 
-expected:<[
-# of occurrences for p: 3
-# of occurrences for i: 1
-# of occurrences for n: 1
-# of occurrences for e: 2
-# of occurrences for a: 1
-# of occurrences for l: 1
-# of occurrences for s: 1]> but was:<[# of occurrences for p: 3
-# of occurrences for i: 1
-# of occurrences for n: 1
-# of occurrences for e: 2
-# of occurrences for a: 1
-# of occurrences for l: 1
-# of occurrences for s: 1
-]>
-	at com.laksumi.whiteTest.AppTest.words(AppTest.java:11)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.laksumi.whiteTest.AppTest
