@@ -10,7 +10,14 @@ public class NoOfOccur {
         for(int i =0; i < strLength; i++){
             charContain[usrInput.charAt(i)]++;
         }
-        
+        for(int i = 0; i < strLength; i++){
+            chara[i] = usrInput.charAt(i);
+            int search = 0;
+            for(int j = 0; j <= i; j++){
+                if(usrInput.charAt(i) == chara[j]);
+            }
+            
+        }
     }
 
 
