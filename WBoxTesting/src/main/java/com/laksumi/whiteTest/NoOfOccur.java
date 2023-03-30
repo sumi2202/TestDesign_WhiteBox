@@ -1,8 +1,15 @@
+/*
+ * Laksumi Somaskanthamoorthy
+ * 100782723
+ *
+ * */
 package com.laksumi.whiteTest;
 
 public class NoOfOccur {
+    //256 represents the ASCII value
     private static final int maxChar = 256;
     public static String checkOccur(String usrInput){
+        //initializing the variables needed in this method
         int charContain[] = new int[maxChar];
         int strLength = usrInput.length();
         char chara[] = new char[usrInput.length()];
