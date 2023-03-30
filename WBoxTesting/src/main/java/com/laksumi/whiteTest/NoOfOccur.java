@@ -15,7 +15,7 @@ public class NoOfOccur {
         char chara[] = new char[usrInput.length()];
         StringBuilder result = new StringBuilder();
 
-
+        //index for string array
         for(int i =0; i < strLength; i++){
             charContain[usrInput.charAt(i)]++;
         }
